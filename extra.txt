@@ -1,0 +1,82 @@
+   <div class="row">
+            <div class="image">
+                <img src="images/11.jpg" alt="1">
+                <div class="packageInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, itaque! Lorem
+                    ipsum dolor, sit amet consectetur adipisicing elit. Libero dolorum minima quam dicta quos dolores
+                    ratione similique et eaque nobis? </div>
+            </div>
+
+            <div class="image">
+                <img src="images/2.jpg" alt="2">
+                <div class="packageInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, itaque! Lorem
+                    ipsum dolor, sit amet consectetur adipisicing elit. Libero dolorum minima quam dicta quos dolores
+                    ratione similique et eaque nobis? </div>
+
+            </div>
+
+            <div class="image">
+                <img src="images/3.jpg" alt="3">
+                <div class="packageInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, itaque! Lorem
+                    ipsum dolor, sit amet consectetur adipisicing elit. Libero dolorum minima quam dicta quos dolores
+                    ratione similique et eaque nobis? </div>
+
+            </div>
+            <div class="image">
+                <img src="images/4.jpg" alt="4">
+                <div class="packageInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, itaque! Lorem
+                    ipsum dolor, sit amet consectetur adipisicing elit. Libero dolorum minima quam dicta quos dolores
+                    ratione similique et eaque nobis? </div>
+
+            </div>
+            <div class="image">
+                <img src="images/5.jpg" alt="5">
+                <div class="packageInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, itaque! Lorem
+                    ipsum dolor, sit amet consectetur adipisicing elit. Libero dolorum minima quam dicta quos dolores
+                    ratione similique et eaque nobis? </div>
+
+            </div>
+            <div class="image">
+                <img src="images/6.jpg" alt="6">
+                <div class="packageInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, itaque! Lorem
+                    ipsum dolor, sit amet consectetur adipisicing elit. Libero dolorum minima quam dicta quos dolores
+                    ratione similique et eaque nobis? </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+         .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: center;
+    align-items: center; */
+
+
+}
+
+
+.row  img{
+    width: 35vh;
+    margin-bottom: 1vh;
+    margin-top: 5vh;
+    
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+
+
