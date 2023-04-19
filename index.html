@@ -54,7 +54,7 @@
         <div class="content">
             <h3>Adventure is worthwhile</h3>
             <p>Discover new places with us, Adventure awaits</p>
-            <a href="#" class="btn">Discover more</a>
+            <a href="#packages" class="btn">Discover more</a>
         </div>
         <div class="controls">
             <span class="vid-btn active" data-src="videos/1.mp4"></span>
@@ -96,26 +96,41 @@
                 <img src="images/booking.jpg" alt="booking">
             </div>
 
-            <form action="">
+            <form action="" name="bookingForm" onsubmit="bookingFormSubmit(); reset(); return false">
 
                 <div class="inputBox">
-                    <h3>Where to?</h3>
-                    <input type="text" placeholder="Place name">
+                    <h3>Name</h3>
+                    <input type="text" name="bName" placeholder="Your Name" required>
+                </div>
+
+                <div class="inputBox">
+                    <h3>Email</h3>
+                    <input type="email" name="bEmail" placeholder="Your Email ID" required>
+                </div>
+
+                <div class="inputBox">
+                    <h3>Phone</h3>
+                    <input type="phone" name="bPhone" placeholder="Your Phone Number" required>
+                </div>
+
+                <div class="inputBox">
+                    <h3>Specify places</h3>
+                    <input type="text" name="bPlaces" placeholder="Multiple places can be entered" required>
                 </div>
 
                 <div class="inputBox">
                     <h3>How Many?</h3>
-                    <input type="number" placeholder="Number of Guests">
+                    <input type="number" name="bGuests" placeholder="Number of Guests" required>
                 </div>
 
                 <div class="inputBox">
                     <h3>Arrivals</h3>
-                    <input type="date">
+                    <input type="date" name="bArrival" required>
                 </div>
 
                 <div class="inputBox">
                     <h3>Leaving</h3>
-                    <input type="date">
+                    <input type="date" name="bLeaving">
                 </div>
 
                 <input type="submit" class="btn" value="Enquire Now">
@@ -165,7 +180,7 @@
                     </div>
 
                     <div class="price"> ₹7000.00 <span>₹12000.00</span></div>
-                    <a href="#" class="btn">Book now</a>
+                    <a href="package1.html" class="btn">Book now</a>
                 </div>
             </div>
 
@@ -187,7 +202,7 @@
                     </div>
 
                     <div class="price"> ₹7000.00 <span>₹12000.00</span></div>
-                    <a href="#" class="btn">Book now</a>
+                    <a href="package2.html" class="btn">Book now</a>
                 </div>
             </div>
 
@@ -207,8 +222,8 @@
 
                     </div>
 
-                    <div class="price"> $₹000.00 <span>₹12000.00</span></div>
-                    <a href="#" class="btn">Book now</a>
+                    <div class="price"> ₹7000.00 <span>₹12000.00</span></div>
+                    <a href="package3.html" class="btn">Book now</a>
                 </div>
             </div>
 
@@ -229,7 +244,7 @@
                     </div>
 
                     <div class="price"> ₹7000.00 <span>₹12000.00</span></div>
-                    <a href="#" class="btn">Book now</a>
+                    <a href="package4.html" class="btn">Book now</a>
                 </div>
             </div>
 
@@ -250,7 +265,7 @@
                     </div>
 
                     <div class="price"> ₹7000.00 <span>₹12000.00</span></div>
-                    <a href="#" class="btn">Book now</a>
+                    <a href="package5.html" class="btn">Book now</a>
                 </div>
             </div>
 
@@ -271,7 +286,7 @@
                     </div>
 
                     <div class="price"> ₹7000.00 <span>₹12000.00</span></div>
-                    <a href="#" class="btn">Book now</a>
+                    <a href="package6.html" class="btn">Book now</a>
                 </div>
             </div>
 
@@ -508,18 +523,18 @@
                 <img src="images/contact.jpg" alt="">
             </div>
 
-            <form action="">
+            <form action="" name="contactForm" onsubmit="contactFormSubmit(); reset(); return false">
                 <div class="inputBox">
-                    <input type="text" placeholder="name">
-                    <input type="email" placeholder="email">
+                    <input type="text" name="cName" placeholder="Name">
+                    <input type="email" name="cEmail" placeholder="Email">
                 </div>
 
                 <div class="inputBox">
-                    <input type="number" placeholder="number">
-                    <input type="text" placeholder="subject">
+                    <input type="number" name="cNumber" placeholder="Phone Number">
+                    <input type="text" name="cSubject" placeholder="Subject">
                 </div>
 
-                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <textarea placeholder="Message" name="messageArea" id="" cols="30" rows="10"></textarea>
                 <input type="submit" class="btn" value="send message">
             </form>
 
@@ -592,6 +607,7 @@
 
 
 
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
     <script src="index.js"></script>
 
 </body>

@@ -80,3 +80,32 @@
 
 
 
+
+
+function setError(id, error) {
+    element = document.getElementById(id);
+    element.getElementsByClassName("formError")[0].innerHTML = error;
+
+}
+
+
+
+function validateForm() {
+
+    var name = document.forms['bookingForm']["bName"].value;
+    setError(name, "Kuchh v");
+    // var returnVal= false;
+    // var name= document.forms['bookingForm']["bName"].value;
+    // if(name.length<5){
+    //      setError("name", "*Length short");
+    //      returnVal=false;
+    //  }
+    // console.log(name.length)
+
+    sendEmail();
+    return true;
+
+}
+
+
+
