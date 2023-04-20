@@ -94,3 +94,199 @@ function contactFormSubmit() {
         message => alert(message)
     );
 }
+
+
+
+function package1FormSubmit() {
+
+    
+    var name1 = document.forms['package1Form']["bName"].value;
+    var email = document.forms['package1Form']["bEmail"].value;
+    var phone = document.forms['package1Form']["bPhone"].value;
+    var guests = document.forms['package1Form']["bGuests"].value;
+    var arrival = document.forms['package1Form']["bArrival"].value;
+    var leaving = document.forms['package1Form']["bLeaving"].value;
+    var msg3= "Name: "+name1 +"\n    ," + 
+              "Email: "+email+"\n    ," + 
+              "Phone: "+phone+"\n    ,"+
+              "Number of Guests: "+guests+"\n    ,"+
+              "Arrival Date: "+arrival+"\n    ,"+
+              "Leaving Date: "+leaving;
+
+    console.log(msg3);
+
+
+    Email.send({
+
+       
+        SecureToken: "3e3bc690-8c85-483d-86a6-fef895216662",
+        To: "manisshh111@gmail.com, ankitsharma97337@gmail.com, northenhills5@gmail.com, razilk03@gmail.com",
+        From: "manish.sharma22221@gmail.com",
+        Subject: "New entry in North Sikkim Tour Package",
+        Body: msg3
+    }).then(
+        message => alert(message)
+    );
+}
+
+
+function package2FormSubmit() {
+
+    
+    var name1 = document.forms['package2Form']["bName"].value;
+    var email = document.forms['package2Form']["bEmail"].value;
+    var phone = document.forms['package2Form']["bPhone"].value;
+    var guests = document.forms['package2Form']["bGuests"].value;
+    var arrival = document.forms['package2Form']["bArrival"].value;
+    var leaving = document.forms['package2Form']["bLeaving"].value;
+    var msg4= "Name: "+name1 +"\n    ," + 
+              "Email: "+email+"\n    ," + 
+              "Phone: "+phone+"\n    ,"+
+              "Number of Guests: "+guests+"\n    ,"+
+              "Arrival Date: "+arrival+"\n    ,"+
+              "Leaving Date: "+leaving;
+
+    console.log(msg4);
+
+
+    Email.send({
+
+       
+        SecureToken: "3e3bc690-8c85-483d-86a6-fef895216662",
+        To: "manisshh111@gmail.com, ankitsharma97337@gmail.com, northenhills5@gmail.com, razilk03@gmail.com",
+        From: "manish.sharma22221@gmail.com",
+        Subject: "New entry in Gangtok Tour Package",
+        Body: msg4
+    }).then(
+        message => alert(message)
+    );
+}
+
+function package3FormSubmit() {
+
+    
+    var name1 = document.forms['package3Form']["bName"].value;
+    var email = document.forms['package3Form']["bEmail"].value;
+    var phone = document.forms['package3Form']["bPhone"].value;
+    var guests = document.forms['package3Form']["bGuests"].value;
+    var arrival = document.forms['package3Form']["bArrival"].value;
+    var leaving = document.forms['package3Form']["bLeaving"].value;
+    var msg5= "Name: "+name1 +"\n    ," + 
+              "Email: "+email+"\n    ," + 
+              "Phone: "+phone+"\n    ,"+
+              "Number of Guests: "+guests+"\n    ,"+
+              "Arrival Date: "+arrival+"\n    ,"+
+              "Leaving Date: "+leaving;
+
+    console.log(msg5);
+
+
+    Email.send({
+
+       
+        SecureToken: "3e3bc690-8c85-483d-86a6-fef895216662",
+        To: "manisshh111@gmail.com, ankitsharma97337@gmail.com, northenhills5@gmail.com, razilk03@gmail.com",
+        From: "manish.sharma22221@gmail.com",
+        Subject: "New entry in Namchi Tour Package",
+        Body: msg5
+    }).then(
+        message => alert(message)
+    );
+}
+
+function package4FormSubmit() {
+
+    
+    var name1 = document.forms['package4Form']["bName"].value;
+    var email = document.forms['package4Form']["bEmail"].value;
+    var phone = document.forms['package4Form']["bPhone"].value;
+    var guests = document.forms['package4Form']["bGuests"].value;
+    var arrival = document.forms['package4Form']["bArrival"].value;
+    var leaving = document.forms['package4Form']["bLeaving"].value;
+    var msg6= "Name: "+name1 +"\n    ," + 
+              "Email: "+email+"\n    ," + 
+              "Phone: "+phone+"\n    ,"+
+              "Number of Guests: "+guests+"\n    ,"+
+              "Arrival Date: "+arrival+"\n    ,"+
+              "Leaving Date: "+leaving;
+
+    console.log(msg6);
+
+
+    Email.send({
+
+       
+        SecureToken: "3e3bc690-8c85-483d-86a6-fef895216662",
+        To: "manisshh111@gmail.com, ankitsharma97337@gmail.com, northenhills5@gmail.com, razilk03@gmail.com",
+        From: "manish.sharma22221@gmail.com",
+        Subject: "New entry in Pelling Tour Package Form",
+        Body: msg6
+    }).then(
+        message => alert(message)
+    );
+}
+
+function package5FormSubmit() {
+
+    
+    var name1 = document.forms['package5Form']["bName"].value;
+    var email = document.forms['package5Form']["bEmail"].value;
+    var phone = document.forms['package5Form']["bPhone"].value;
+    var guests = document.forms['package5Form']["bGuests"].value;
+    var arrival = document.forms['package5Form']["bArrival"].value;
+    var leaving = document.forms['package5Form']["bLeaving"].value;
+    var msg7= "Name: "+name1 +"\n    ," + 
+              "Email: "+email+"\n    ," + 
+              "Phone: "+phone+"\n    ,"+
+              "Number of Guests: "+guests+"\n    ,"+
+              "Arrival Date: "+arrival+"\n    ,"+
+              "Leaving Date: "+leaving;
+
+    console.log(msg7);
+
+
+    Email.send({
+
+       
+        SecureToken: "3e3bc690-8c85-483d-86a6-fef895216662",
+        To: "manisshh111@gmail.com, ankitsharma97337@gmail.com, northenhills5@gmail.com, razilk03@gmail.com",
+        From: "manish.sharma22221@gmail.com",
+        Subject: "New entry in Darjeeling Tour Package Form",
+        Body: msg7
+    }).then(
+        message => alert(message)
+    );
+}
+
+
+function package6FormSubmit() {
+
+    
+    var name1 = document.forms['package6Form']["bName"].value;
+    var email = document.forms['package6Form']["bEmail"].value;
+    var phone = document.forms['package6Form']["bPhone"].value;
+    var guests = document.forms['package6Form']["bGuests"].value;
+    var arrival = document.forms['package6Form']["bArrival"].value;
+    var leaving = document.forms['package6Form']["bLeaving"].value;
+    var msg8= "Name: "+name1 +"\n    ," + 
+              "Email: "+email+"\n    ," + 
+              "Phone: "+phone+"\n    ,"+
+              "Number of Guests: "+guests+"\n    ,"+
+              "Arrival Date: "+arrival+"\n    ,"+
+              "Leaving Date: "+leaving;
+
+    console.log(msg8);
+
+
+    Email.send({
+
+       
+        SecureToken: "3e3bc690-8c85-483d-86a6-fef895216662",
+        To: "manisshh111@gmail.com, ankitsharma97337@gmail.com, northenhills5@gmail.com, razilk03@gmail.com",
+        From: "manish.sharma22221@gmail.com",
+        Subject: "New entry in Dooars Tour Package Form",
+        Body: msg8
+    }).then(
+        message => alert(message)
+    );
+}

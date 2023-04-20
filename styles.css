@@ -573,6 +573,123 @@ header .navbar a:hover{
     text-decoration: underline;
   }
 
+/* Package1 */
+
+.package1 .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+
+}
+
+.package1 .row .package1Details{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex:1 1 40rem;
+}
+
+.package1 .row .package1Details img{
+    width: 100%;
+    /* margin-bottom: 1.2rem;
+    /* margin-top: 1.2rem; */ */
+}
+
+.package1 .row .package1Details p{
+    font-size: 2rem;
+}
+
+/* .package1 .row .image img{
+    width: 100%;
+} */
+
+.package1 .row form{
+    flex:1 1 40rem;
+    padding:2rem;
+    box-shadow: 0 4rem 6rem rgba(0,0,0,.1);
+    border-radius: 0.5rem;
+}
+
+.package1 .row form .inputBox{
+    padding: .5rem 0;
+}
+
+.package1 .row form .inputBox input{
+    width: 100%;
+    padding: 1rem;
+    border: .1rem solid rgba(0,0,0,.1);
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+}
+
+.package1 .row form .inputBox h3{
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: #666;
+}
+
+.package1 .package1Details .details .content{
+    padding: 2rem;
+
+}
+
+.package1 .package1Details .details .content h3{
+    font-size: 2rem;
+    color: #333;
+    
+}
+
+.package1 .package1Details .details .content h3 i{
+  color: var(--orange);
+  margin-right: .5rem;
+
+    
+}
+.package1 .package1Details .details .content .stars {
+   margin-top: .5rem;
+   margin-bottom: .5rem;  
+  }
+.package1 .package1Details .details .content .stars i{
+    color: var(--orange);
+    margin-right: .5rem;
+    font-size: 1.5rem;
+      
+  }
+
+  .package1 .package1Details .details .content .price{
+    color: #333;
+    margin-right: .5rem;
+    font-size: 1.8rem;
+      
+  }
+
+  .package1 .package1Details .details .content .price span{
+   text-decoration: line-through;
+      
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Media Queries for Navigation */
@@ -690,6 +807,19 @@ header .navbar a:hover{
      
 }
 
+@media (max-width:450px){
+
+    .package1 .heading span{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:380px){
+
+    .package1 .heading span{
+        font-size: 2rem;
+    }
+}
 
 /* Media Queries for navigation ends */
 
