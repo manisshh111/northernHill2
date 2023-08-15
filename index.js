@@ -50,9 +50,9 @@ function bookingFormSubmit() {
     Email.send({
 
        
-        SecureToken: "3e3bc690-8c85-483d-86a6-fef895216662",
+        SecureToken: "null",
         To: "manisshh111@gmail.com, ankitsharma97337@gmail.com, northenhills5@gmail.com, razilk03@gmail.com",
-        From: "manish.sharma22221@gmail.com",
+        From: "null",
         Subject: "New entry in Book Now Form",
         Body: msg1
     }).then(
@@ -85,9 +85,9 @@ function contactFormSubmit() {
     Email.send({
 
        
-        SecureToken: "3e3bc690-8c85-483d-86a6-fef895216662",
+        SecureToken: "null",
         To: "manisshh111@gmail.com, ankitsharma97337@gmail.com, northenhills5@gmail.com, razilk03@gmail.com",
-        From: "manish.sharma22221@gmail.com",
+        From: "null",
         Subject: "New entry in Contact Us Form",
         Body: msg2
     }).then(
@@ -119,9 +119,9 @@ function package1FormSubmit() {
     Email.send({
 
        
-        SecureToken: "3e3bc690-8c85-483d-86a6-fef895216662",
+        SecureToken: "null",
         To: "manisshh111@gmail.com, ankitsharma97337@gmail.com, northenhills5@gmail.com, razilk03@gmail.com",
-        From: "manish.sharma22221@gmail.com",
+        From: "null",
         Subject: "New entry in North Sikkim Tour Package",
         Body: msg3
     }).then(
@@ -152,9 +152,9 @@ function package2FormSubmit() {
     Email.send({
 
        
-        SecureToken: "3e3bc690-8c85-483d-86a6-fef895216662",
+        SecureToken: "null",
         To: "manisshh111@gmail.com, ankitsharma97337@gmail.com, northenhills5@gmail.com, razilk03@gmail.com",
-        From: "manish.sharma22221@gmail.com",
+        From: "null",
         Subject: "New entry in Gangtok Tour Package",
         Body: msg4
     }).then(
@@ -184,9 +184,9 @@ function package3FormSubmit() {
     Email.send({
 
        
-        SecureToken: "3e3bc690-8c85-483d-86a6-fef895216662",
+        SecureToken: "null",
         To: "manisshh111@gmail.com, ankitsharma97337@gmail.com, northenhills5@gmail.com, razilk03@gmail.com",
-        From: "manish.sharma22221@gmail.com",
+        From: "null",
         Subject: "New entry in Namchi Tour Package",
         Body: msg5
     }).then(
@@ -216,9 +216,9 @@ function package4FormSubmit() {
     Email.send({
 
        
-        SecureToken: "3e3bc690-8c85-483d-86a6-fef895216662",
+        SecureToken: "null",
         To: "manisshh111@gmail.com, ankitsharma97337@gmail.com, northenhills5@gmail.com, razilk03@gmail.com",
-        From: "manish.sharma22221@gmail.com",
+        From: "null",
         Subject: "New entry in Pelling Tour Package Form",
         Body: msg6
     }).then(
@@ -248,9 +248,9 @@ function package5FormSubmit() {
     Email.send({
 
        
-        SecureToken: "3e3bc690-8c85-483d-86a6-fef895216662",
+        SecureToken: "null",
         To: "manisshh111@gmail.com, ankitsharma97337@gmail.com, northenhills5@gmail.com, razilk03@gmail.com",
-        From: "manish.sharma22221@gmail.com",
+        From: "null",
         Subject: "New entry in Darjeeling Tour Package Form",
         Body: msg7
     }).then(
@@ -281,9 +281,9 @@ function package6FormSubmit() {
     Email.send({
 
        
-        SecureToken: "3e3bc690-8c85-483d-86a6-fef895216662",
+        SecureToken: "null",
         To: "manisshh111@gmail.com, ankitsharma97337@gmail.com, northenhills5@gmail.com, razilk03@gmail.com",
-        From: "manish.sharma22221@gmail.com",
+        From: "null",
         Subject: "New entry in Dooars Tour Package Form",
         Body: msg8
     }).then(
